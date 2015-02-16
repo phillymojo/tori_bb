@@ -1,1 +1,56 @@
 /* CSS declarations go here */
+.items_container {
+	overflow: hidden;
+	width: 1200px;
+}
+
+.item_container {
+	float: left;
+	margin: 5px;
+	color: pink;
+	font-size: 24px;
+}
+.item-image {
+	width: 200px;
+}
+.item-image-placeholder {
+	border: #ccc solid 1px;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.add_item_modal {
+	padding: 5px;
+	margin: 5px;
+	border: solid #ccc 1px;
+	width: 220px;
+}
+form.new-item {
+	overflow: hidden;
+}
+form.new-item input,
+form.new-item testarea,
+form.new-item select {
+	width: 200px;
+	float: left;
+}
+form.new-item select {
+	width: 100px;
+	margin-right: 10px;
+}
+form.new-item .add-picture {
+	width: 50%;
+	margin: 5px auto;
+	display: block;
+	float: none;
+}
+form.new-item .submit_button {
+	width: 50%;
+	margin: 20px auto 0;
+	float: none;
+	display: block;
+}
+.input_container {
+	margin-top: 5px;
+	overflow: hidden;
+}
