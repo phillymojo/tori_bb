@@ -10,3 +10,4 @@ window.clientApp = {
 		return image_data;
 	}
 };
+

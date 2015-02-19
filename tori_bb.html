@@ -5,11 +5,9 @@
 <body>
   <h1>Test App</h1>
   {{> add_item_modal}}
-	<div class="items_container">
 	  {{#each items}}
 	  	{{> item}}
 	  {{/each}}
-	</div>
 </body>
 
 <template name="home">
@@ -50,8 +48,8 @@
 				<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
 			</div>
 		</div>
+		<img src="about:blank" alt="" id="show-picture">
 		<input type="file" id="take-picture" class="add-picture button" accept="image/*">
-		<input type="button" value="Add Picture" class="add-picture button" />
 		<input class="submit_button button" type="submit" />
 		</form>
 	</div>
