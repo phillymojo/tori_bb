@@ -48,9 +48,15 @@
 				<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
 			</div>
 		</div>
-		<img src="about:blank" alt="" id="show-picture">
-		<input type="file" id="take-picture" class="add-picture button" accept="image/*">
+		<img src="" alt="" id="show-picture">
+		{{#if true}}
+			{{> take_picture}}
+		{{/if}}
 		<input class="submit_button button" type="submit" />
 		</form>
 	</div>
+</template>
+
+<template name="take_picture">
+		<input type="file" id="take-picture" class="add-picture button" accept="image/*">	
 </template>
